@@ -1,0 +1,236 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.color-section
+{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section
+{
+    background-color: white;
+}
+h1, h2, h3, h4
+{
+    font-weight: bold;
+}
+
+/*------------------------------- navbar section -------------------------------------*/
+.container-fluid
+{
+    padding: 1% 15%;
+    padding-bottom: 80px;
+}
+.navbar-brand
+{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.navbar
+{
+    padding: 0 0 5rem;
+}
+.nav-item
+{
+    padding: 0 18px;
+    font-size: 20px;
+    font-family: "Montserrat-light";
+}
+p
+{
+    color: grey;
+}
+
+.title-button
+{
+    margin: 10px 3px 0;
+}
+.title-heading, h2
+{
+    font-size: 3rem;
+}
+
+.title-image
+{
+    padding-top: 60px;
+    width: 90%;
+    transform: rotate(-42deg);
+    position: absolute;
+    left: 15%;
+}
+
+/*------------------------------- End of navbar section -------------------------------------*/
+
+/*------------------------------- Features section -------------------------------------*/
+#features
+{
+    padding: 7% 9%;
+}
+.feature-box
+{
+    text-align: center;
+    padding: 4%;
+}
+.feature-img
+{
+    color:#ef8172;
+    margin-bottom: 1.5rem;
+}
+.feature-img:hover
+{
+    color: #ff4c68;
+}
+/*------------------------------- End of Features section -------------------------------------*/
+
+/*------------------------------- Testimonials section -------------------------------------*/
+.carousel-item
+{
+    padding: 7% 18%;
+}
+#press
+{
+    text-align: center;
+    padding-bottom: 3%;
+}
+#press>img
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#testimonials
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.testimonials-image
+{
+    border-radius: 100%;
+    width: 25%;
+    margin: 10px;
+    border: 2px solid white;
+}
+
+
+/*------------------------------- End of Testimonials section -------------------------------------*/
+
+/*------------------------------- Pricing section -------------------------------------*/
+
+.card-header
+{
+    background-color: rgb(61, 61, 189);
+    color: white;
+}
+.card-box
+{
+    border: 1px solid rgb(61, 61, 189);
+}
+#pricing
+{
+    padding: 3% 15%;
+}
+.pricing-column
+{
+    padding: 8px;
+}
+
+/*------------------------------- End of Pricing section -------------------------------------*/
+
+/* ---------------------contact block---------------------- */
+#contact
+{
+    text-align: center;
+    height: 80%;
+}
+.contact-block
+{
+    padding: 5% 20%;
+    color: white;
+}
+
+.social-icons-block
+{
+    padding: 5% 20%;
+    text-align: center;
+}
+.social-icons
+{
+    height: 30px;
+    width: 50px;
+}
+
+/* ------------------------------Responsiveness------------------------------------------------ */
+
+@media (max-width: 988px)
+{
+    .container-fluid
+    {
+        padding-bottom: 1px;
+        text-align: center;
+    } 
+    .title-image
+    {
+        position: relative;
+        transform: rotate(390deg);
+        left: 3%;
+    }  
+    
+}
+
+@media (max-width: 414px)
+{
+    .carousel-item
+    {
+        padding: 7% 12%;
+    }
+    .container-fluid
+    {
+        padding: 1% auto;
+    }
+    .contact-block h1
+    {
+        font-size: 1rem;
+    }
+    em
+    {
+        font-size: 13px;
+    }
+    h2
+    {
+        font-size: 1rem;
+    }
+    #press>img
+    {
+        margin: 20px 10px 50px;
+    }
+    .social-icons-block p
+    {
+        font-size: 10px;
+    }
+    .title-heading
+    {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .title-image
+    {
+        position: relative;
+        left: 30px;
+        transform: rotate(0);
+    }
+    #testimonials a
+    {
+        margin: 0 12px;
+    }
+    
+}
+
+/* ------------------------------Responsiveness------------------------------------------------ */
