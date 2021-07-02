@@ -1,64 +1,66 @@
-body
-{
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-html
-{
+
+html {
     scroll-behavior: smooth;
 }
-.color-section
-{
+
+.color-section {
     background-color: #ff4c68;
     color: white;
 }
-.white-section
-{
+
+.white-section {
     background-color: white;
 }
-h1, h2, h3, h4
-{
+
+h1,
+h2,
+h3,
+h4 {
     font-weight: bold;
 }
 
+
 /*------------------------------- navbar section -------------------------------------*/
-.container-fluid
-{
+
+.container-fluid {
     padding: 1% 15%;
     padding-bottom: 80px;
 }
-.navbar-brand
-{
+
+.navbar-brand {
     font-weight: bold;
     font-size: 2.5rem;
 }
-.navbar
-{
+
+.navbar {
     padding: 0 0 5rem;
 }
-.nav-item
-{
+
+.nav-item {
     padding: 0 18px;
     font-size: 20px;
     font-family: "Montserrat-light";
 }
-p
-{
+
+p {
     color: grey;
 }
 
-.title-button
-{
+.title-button {
     margin: 10px 3px 0;
 }
-.title-heading, h2
-{
+
+.title-heading,
+h2 {
     font-size: 3rem;
 }
 
-.title-image
-{
+.title-image {
     padding-top: 20px;
     width: 90%;
     transform: rotate(-42deg);
@@ -66,53 +68,56 @@ p
     left: 15%;
 }
 
+
 /*------------------------------- End of navbar section -------------------------------------*/
 
+
 /*------------------------------- Features section -------------------------------------*/
-#features
-{
+
+#features {
     padding: 7% 9%;
 }
-.feature-box
-{
+
+.feature-box {
     text-align: center;
     padding: 4%;
 }
-.feature-img
-{
-    color:#ef8172;
+
+.feature-img {
+    color: #ef8172;
     margin-bottom: 1.5rem;
 }
-.feature-img:hover
-{
+
+.feature-img:hover {
     color: #ff4c68;
 }
+
+
 /*------------------------------- End of Features section -------------------------------------*/
 
+
 /*------------------------------- Testimonials section -------------------------------------*/
-.carousel-item
-{
+
+.carousel-item {
     padding: 7% 18%;
 }
-#press
-{
+
+#press {
     text-align: center;
     padding-bottom: 3%;
 }
-#press>img
-{
+
+#press>img {
     width: 15%;
     margin: 20px 20px 50px;
 }
 
-#testimonials
-{
+#testimonials {
     text-align: center;
     font-weight: bold;
 }
 
-.testimonials-image
-{
+.testimonials-image {
     border-radius: 100%;
     width: 25%;
     margin: 10px;
@@ -122,115 +127,140 @@ p
 
 /*------------------------------- End of Testimonials section -------------------------------------*/
 
+
 /*------------------------------- Pricing section -------------------------------------*/
 
-.card-header
-{
+.card-header {
     background-color: rgb(61, 61, 189);
     color: white;
 }
-.card-box
-{
+
+.card-box {
     border: 1px solid rgb(61, 61, 189);
 }
-#pricing
-{
+
+#pricing {
     padding: 3% 15%;
 }
-.pricing-column
-{
+
+.pricing-column {
     padding: 8px;
 }
 
+
 /*------------------------------- End of Pricing section -------------------------------------*/
 
+
 /* ---------------------contact block---------------------- */
-#contact
-{
+
+#contact {
     text-align: center;
     height: 80%;
 }
-.contact-block
-{
+
+.contact-block {
     padding: 5% 20%;
     color: white;
 }
 
-.social-icons-block
-{
+.social-icons-block {
     padding: 5% 20%;
     text-align: center;
 }
-.social-icons
-{
+
+.social-icons {
     height: 30px;
     width: 50px;
 }
 
+
+/*-------------------------signupform---------------------*/
+
+#sign-up-form {
+    height: 80%;
+    text-align: center;
+    padding: 2% 43%;
+}
+
+#sign-up-form h1 {
+    margin-bottom: 40px;
+    color: #ff4c68;
+}
+
+#sign-up-form button {
+    border-radius: 5px;
+    width: 198px;
+    margin-top: 5px;
+    background-color: #007bff;
+    border: none;
+    height: 35px;
+    color: white;
+    outline: none;
+}
+
+form>input {
+    display: block;
+    text-align: center;
+    margin: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    height: 35px;
+}
+
+
+/*----------------------End of signupform-----------------*/
+
+
 /* ------------------------------Responsiveness------------------------------------------------ */
 
-@media (max-width: 988px)
-{
-    .container-fluid
-    {
+@media (max-width: 988px) {
+    .container-fluid {
         padding-bottom: 1px;
         text-align: center;
-    } 
-    .title-image
-    {
+    }
+    .title-image {
         position: relative;
         transform: rotate(390deg);
         left: 3%;
-    }  
-    
+    }
 }
 
-@media (max-width: 414px)
-{
-    .carousel-item
-    {
+@media (max-width: 414px) {
+    .carousel-item {
         padding: 7% 12%;
     }
-    .container-fluid
-    {
+    .container-fluid {
         padding: 1% auto;
     }
-    .contact-block h1
-    {
+    .contact-block h1 {
         font-size: 1rem;
     }
-    em
-    {
+    em {
         font-size: 13px;
     }
-    h2
-    {
+    h2 {
         font-size: 1rem;
     }
-    #press>img
-    {
+    #press>img {
         margin: 20px 10px 50px;
     }
-    .social-icons-block p
-    {
+    .social-icons-block p {
         font-size: 10px;
     }
-    .title-heading
-    {
+    .title-heading {
         font-size: 1.5rem;
         text-align: left;
     }
-    .title-image
-    {
+    .title-image {
         position: relative;
         left: 30px;
         transform: rotate(0);
     }
-    #testimonials a
-    {
+    #testimonials a {
         margin: 0 12px;
     }
-    
 }
+
 
 /* ------------------------------Responsiveness------------------------------------------------ */
