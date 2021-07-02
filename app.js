@@ -54,8 +54,13 @@ app.post("/failure", function(req, res) {
 
 app.post("/success", function(req, res) {
     res.redirect("/");
-})
+});
 
-app.listen(2000, function() {
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 2000;
+}
+
+app.listen(port, function() {
     console.log("server started at port 2000");
 });
