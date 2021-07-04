@@ -224,6 +224,9 @@ form>input {
         transform: rotate(390deg);
         left: 3%;
     }
+    #sign-up-form h1 {
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 414px) {
