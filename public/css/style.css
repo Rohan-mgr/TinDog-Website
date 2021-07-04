@@ -184,8 +184,7 @@ h2 {
 
 #sign-up-form h1 {
     margin-bottom: 40px;
-    color: black;
-    font-size: 10px;
+    color: #ff4c68;
 }
 
 #sign-up-form button {
@@ -225,8 +224,8 @@ form>input {
         transform: rotate(390deg);
         left: 3%;
     }
-    #sign-up-form>h1 {
-        font-size: 10px;
+    #sign-up-form h1 {
+        font-size: 1.5rem;
     }
 }
 
