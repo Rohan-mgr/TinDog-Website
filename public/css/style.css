@@ -266,6 +266,9 @@ form>input {
     #sign-up-form {
         padding: 2% 20%;
     }
+    #signUp-btn {
+        width: 75px;
+    }
 }
 
 
