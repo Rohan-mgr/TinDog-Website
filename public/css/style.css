@@ -214,7 +214,7 @@ form>input {
 
 /* ------------------------------Responsiveness------------------------------------------------ */
 
-@media (max-width: 988px) {
+@media (max-width: 988px) and (max-width: 1024px) {
     .container-fluid {
         padding-bottom: 1px;
         text-align: center;
