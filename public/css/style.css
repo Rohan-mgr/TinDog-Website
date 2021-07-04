@@ -263,6 +263,9 @@ form>input {
     #testimonials a {
         margin: 0 12px;
     }
+    #sign-up-form {
+        padding: 2% auto;
+    }
 }
 
 
