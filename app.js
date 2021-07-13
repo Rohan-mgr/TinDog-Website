@@ -27,11 +27,12 @@ app.post("/", function(req, res) {
             }
         }]
     };
+
     const jsonData = JSON.stringify(data);
-    const url = URL;
+    const url = process.env.URL;
     const option = {
         method: "POST",
-        auth: "Rohan07:" + API_KEY
+        auth: "Rohan07:" + process.env.API_KEY
     };
     const request = https.request(url, option, function(response) {
         console.log(response.statusCode);
@@ -44,6 +45,8 @@ app.post("/", function(req, res) {
             console.log(JSON.parse(jsonData));
         });
     });
+    console.log(URL);
+    console.log(API_KEY);
     request.write(jsonData);
     request.end();
 });
