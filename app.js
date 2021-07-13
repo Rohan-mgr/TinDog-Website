@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const https = require("https");
@@ -15,7 +16,6 @@ app.post("/", function(req, res) {
     const lastName = req.body.secondName;
     const contactNumber = req.body.contactNumber;
     const email = req.body.email;
-    // console.log(firstName, lastName, contactNumber, email);
     let data = {
         members: [{
             email_address: email,
@@ -28,10 +28,10 @@ app.post("/", function(req, res) {
         }]
     };
     const jsonData = JSON.stringify(data);
-    const url = "https://us6.api.mailchimp.com/3.0/lists/fef4bba2dc";
+    const url = URL;
     const option = {
         method: "POST",
-        auth: "Rohan07:1af4e29cec00d29c75f0cefae15abd28-us6"
+        auth: "Rohan07:" + API_KEY
     };
     const request = https.request(url, option, function(response) {
         console.log(response.statusCode);
